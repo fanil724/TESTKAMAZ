@@ -43,7 +43,6 @@ Dictionary<string, string> GetDictionary(string path)
     return pairs;
 }
 
-
 void CreateXmlDOC(string path, Dictionary<string, string> dir)
 {
     XmlDocument xmlDocument = new XmlDocument();
